@@ -4,13 +4,14 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 const links = [
   ["Home", "#home"],
   ["How it works", "#how-it-works"],
+  ["Clips", "#clips"],
   ["About", "#about"],
   ["Submit clip", "#submit"],
 ];
 export function Wordmark() {
   return (
     <span className="wordmark">
-      CRIMSON<span>CLIPS</span>
+      crimson<span>clips</span>
     </span>
   );
 }
@@ -34,7 +35,7 @@ export default function Navbar() {
           ))}
         </nav>
         <a className="button small nav-cta" href="#submit">
-          SUBMIT A CLIP <ArrowUpRight size={17} />
+          Submit a clip <ArrowUpRight size={16} />
         </a>
         <button
           className="menu-toggle"

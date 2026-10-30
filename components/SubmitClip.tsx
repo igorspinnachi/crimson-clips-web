@@ -58,11 +58,11 @@ export default function SubmitClip() {
     <section id="submit" className="section submit-section">
       <div className="container submit-layout">
         <div className="submit-intro">
-          <p className="eyebrow">YOUR NEXT BIG MOMENT STARTS HERE</p>
+          <p className="eyebrow">Submit</p>
           <h2>
-            GOT A CLIP
+            Got a clip
             <br />
-            WORTH <em>SHARING?</em>
+            worth <em>sharing?</em>
           </h2>
           <p>
             Send us your best gaming moment. Our team might feature it in an
@@ -78,11 +78,7 @@ export default function SubmitClip() {
               </p>
             </div>
           </div>
-          <span className="side-index">
-            MAKE IT
-            <br />
-            UNFORGETTABLE.
-          </span>
+
         </div>
         <form
           className="submission-form"
